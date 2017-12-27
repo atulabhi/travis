@@ -1,0 +1,132 @@
+.joinpadding {
+    padding: 0rem 3rem 0rem 3rem;
+}
+
+.footer-space {
+    margin-top: 0%;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    /* padding-bottom: 4%; */
+}
+
+.allfooter {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo1 {
+    height: 100%;
+    width: 83%;
+}
+
+.footer-logo2 {
+    height: 100%;
+    width: 100%;
+}
+
+.footer-openebs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+}
+
+.footer-address {
+    color: #414141;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 60%;
+}
+
+.footer-address p {
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+.footer-mayaonline {
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+    align-items: center;
+}
+
+.mayaonlineandadd {
+    display: flex;
+}
+
+@media screen and (max-width:767px) {
+    .footer-logo1 {
+        height: 100%;
+        width: 100%;
+    }
+    .footer-logo2 {
+        height: 100%;
+        width: 75%;
+    }
+    .footer-openebs {
+        text-align: center;
+        justify-content: center;
+    }
+    .footer-mayaonline {
+        text-align: center;
+        justify-content: center;
+    }
+    .footer-openebs {
+        padding: 1%;
+    }
+    .footer-address {
+        padding: 1%
+    }
+    .footer-mayaonline {
+        padding: 1%;
+    }
+    .allfooter {
+        display: flex;
+    }
+    .footer-address p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width:660px) {
+    .footer-space {
+        padding: 0.7rem 0.7rem 0.7rem 0.7rem;
+        /* padding-bottom: 4%; */
+    }
+    .footer-openebs {
+        padding: 0.7%;
+    }
+    .footer-address {
+        padding: 0.7%
+    }
+}
+
+@media screen and (max-width:560px) {
+    .footer-address p {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .footer-space {
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+        /* padding-bottom: 4%; */
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer-mayaonline {
+        display: flex;
+        justify-content: flex-end;
+        text-align: end;
+        align-items: center;
+    }
+    /* .footer-openebs {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: start;
+    } */
+}

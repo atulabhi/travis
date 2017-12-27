@@ -1,0 +1,361 @@
+.orange-strip {
+    height: 50px;
+    background-color: #ff9933;
+}
+
+.mayadata-bgcolor {
+    background-color: #e2e2e2;
+}
+
+.maya-img-about,
+.maya-secret-about {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.gm {
+    margin: auto;
+    margin-top: 7%;
+}
+
+.mule-square {
+    height: 138px;
+    width: 138px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ff9933;
+    border-radius: 0.3rem;
+    background-color: transparent;
+}
+
+.mule-square img {
+    height: 100%;
+    width: 100%;
+}
+
+.aboutmaya-data {
+    text-align: center;
+}
+
+.aboutmaya-data h1 {
+    padding-bottom: 2%;
+    font-size: 2.5rem;
+    color: #000000;
+    font-weight: 200;
+}
+
+.aboutmaya-data p {
+    font-size: 1rem;
+    font-size: 1.15rem;
+}
+
+.secret-plan {
+    height: 138px;
+    width: 138px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 3px solid #ffffff;
+    font-size: 1.15rem;
+    border-radius: 0.3rem;
+    background-color: #ff9933;
+}
+
+.board {
+    margin-top: 4%;
+}
+
+.board-h1 {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.board-h1 h1 {
+    font-weight: 200;
+}
+
+.board-div img {
+    height: 138px;
+    width: 138px;
+}
+
+.board-idiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.board-idiv span {
+    font-size: 0.85rem;
+    color: #424242;
+}
+
+.investor {
+    padding: 0%;
+}
+
+.investor-h1 {
+    text-align: center;
+    padding-bottom: 0%;
+    margin: 0;
+}
+
+.investor-h1 h1 {
+    font-weight: 200;
+}
+
+.investor-div {
+    margin-bottom: 0%;
+    margin: 0;
+}
+
+.investor-idiv img {
+    height: 55px;
+}
+
+.investor-idiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #efeeee;
+    margin: 1%;
+    padding: 0.5% 0%;
+}
+
+@media screen and (max-width:767px) {
+    .mobile-hide {
+        display: none;
+    }
+    .investor-idiv {
+        width: 75%;
+    }
+    .gm {
+        margin: auto;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+    }
+    .mob-cen {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .board-idiv {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 2% 0%;
+    }
+    .lf {
+        justify-content: flex-start;
+        padding-left: 2%;
+    }
+    .rf {
+        justify-content: flex-end;
+        padding-right: 2%;
+    }
+    .investor-idiv img {
+        height: 40px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .desktop-hide {
+        display: none;
+    }
+    .orange-strip {
+        height: 35px;
+    }
+    .mule-square {
+        height: 105px;
+        width: 105px;
+    }
+    .secret-plan {
+        height: 105px;
+        width: 105px;
+    }
+    .aboutmaya-data h1 {
+        font-size: 1.85rem;
+        font-weight: 200;
+    }
+    .investor {
+        padding: 5% 0%;
+    }
+    .investor-h1 {
+        text-align: center;
+        padding-bottom: 3%;
+    }
+    .investor-div {
+        margin-bottom: 3%;
+    }
+    .gm {
+        margin: auto;
+        margin-top: 8%;
+    }
+    .aboutmaya-data p {
+        font-size: 0.8rem;
+    }
+    .secret-plan {
+        font-size: 0.9rem;
+    }
+    .board-h1 h1 {
+        font-size: 2rem;
+    }
+    .board-div img {
+        height: 105px;
+        width: 105px;
+    }
+    .board-idiv span {
+        font-size: 0.7rem;
+    }
+    .investor-h1 h1 {
+        font-size: 2rem;
+    }
+    .investor-idiv img {
+        height: 35px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .orange-strip {
+        height: 40px;
+    }
+    .mule-square {
+        height: 138px;
+        width: 138px;
+    }
+    .secret-plan {
+        height: 138px;
+        width: 138px;
+        font-size: 1.2rem;
+    }
+    .aboutmaya-data h1 {
+        font-size: 2.5rem;
+        font-weight: 200;
+    }
+    .aboutmaya-data p {
+        font-size: 1.15rem;
+    }
+    .gm {
+        margin: auto;
+        margin-top: 8.5%;
+    }
+    .board-div img {
+        height: 138px;
+        width: 138px;
+    }
+    .investor-idiv img {
+        height: 50px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .orange-strip {
+        height: 50px;
+        background-color: #ff9933;
+    }
+    .mayadata-bgcolor {
+        background-color: #e2e2e2;
+    }
+    .gm {
+        margin: auto;
+        margin-top: 7%;
+    }
+    .mule-square {
+        height: 138px;
+        width: 138px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 1px solid #ff9933;
+        border-radius: 0.3rem;
+        background-color: transparent;
+    }
+    .mule-square img {
+        height: 100%;
+        width: 100%;
+    }
+    .aboutmaya-data {
+        text-align: center;
+    }
+    .aboutmaya-data h1 {
+        padding-bottom: 2%;
+        font-size: 2.5rem;
+        color: #000000;
+        font-weight: 200;
+    }
+    .aboutmaya-data p {
+        font-size: 1rem;
+        font-size: 1.15rem;
+    }
+    .secret-plan {
+        height: 138px;
+        width: 138px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 3px solid #ffffff;
+        font-size: 1.15rem;
+        border-radius: 0.3rem;
+        background-color: #ff9933;
+    }
+    .board {
+        margin-top: 4%;
+    }
+    .board-h1 {
+        text-align: center;
+        padding-bottom: 3%;
+    }
+    .board-h1 h1 {
+        font-weight: 200;
+    }
+    .board-div img {
+        height: 138px;
+        width: 138px;
+    }
+    .board-idiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .board-idiv span {
+        font-size: 0.85rem;
+        color: #424242;
+    }
+    .investor {
+        padding: 5% 0%;
+    }
+    .investor-h1 {
+        text-align: center;
+        padding-bottom: 3%;
+    }
+    .investor-h1 h1 {
+        font-weight: 200;
+    }
+    .investor-div {
+        margin-bottom: 3%;
+    }
+    .investor-idiv img {
+        height: 55px;
+    }
+    .investor-idiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 1px solid #efeeee;
+        margin: 1%;
+        padding: 0.5% 0%;
+    }
+}

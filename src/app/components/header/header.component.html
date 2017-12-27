@@ -1,0 +1,67 @@
+<!-- Global Header For All -->
+<style>
+    .dropdown-menu {
+        min-width: 7.5rem;
+    }
+</style>
+<div class="container largeviewport">
+    <nav class="navbar navbar-expand-md navbar-light ampadding" style="z-index:70;">
+        <button class="navbar-toggler navbar-toggler-right " type="button" data-toggle="collapse" data-target="#navbarNavDropdown1" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+        <a class="navbar-brand mayadata-nav-item" routerLink="/"><img class="mayadata-img1" [src]='"assets/images/maya-logo.png"' alt="MayaData" title="MayaData"></a>
+
+
+        <div class="collapse navbar-collapse " id="navbarNavDropdown1">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item" data-toggle="collapse" data-target="#navbarNavDropdown1">
+                    <a class="nav-link" href="https://medium.com/mayadata" target="_blank">Blog</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target="#navbarNavDropdown1">
+                    <a class="nav-link" href="https://openebs.io" target="_blank">OpenEBS</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target="#navbarNavDropdown1">
+                    <a class="nav-link" href="https://mayaonline.io/" target="_blank">MayaOnline</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target="#navbarNavDropdown1">
+                    <a class="nav-link" routerLink="/AboutUs">About&nbsp;Us</a>
+                </li>
+
+
+
+            </ul>
+
+        </div>
+    </nav>
+</div>
+<div class="smallviewport">
+    <nav class="navbar navbar-expand-md navbar-light ampadding" style="z-index:70;">
+        <button class="navbar-toggler navbar-toggler-right " type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <a class="navbar-brand" routerLink="/"><img class="mayadata-img1" [src]='"assets/images/maya-logo.png"' alt="MayaData" title="MayaData"></a>
+
+
+        <div class="collapse navbar-collapse " id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item" data-toggle="collapse" data-target="#navbarNavDropdown">
+                    <a class="nav-link" href="https://medium.com/mayadata" target="_blank">Blog</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target="#navbarNavDropdown">
+                    <a class="nav-link" href="https://openebs.io" target="_blank">OpenEBS</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target="#navbarNavDropdown">
+                    <a class="nav-link" href="https://mayaonline.io/" target="_blank">MayaOnline</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target="#navbarNavDropdown">
+                    <a class="nav-link" routerLink="/AboutUs">About&nbsp;Us</a>
+                </li>
+
+
+            </ul>
+        </div>
+    </nav>
+</div>
+<router-outlet></router-outlet>

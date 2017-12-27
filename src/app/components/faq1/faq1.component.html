@@ -1,0 +1,253 @@
+<style>
+    h3 {
+        color: #fff;
+    }
+    
+    h4 {
+        color: black;
+        text-align: initial;
+    }
+    
+    p {
+        color: black;
+        font-size: 1.15rem;
+    }
+    
+    ul {
+        color: #fff;
+        list-style: none;
+        -webkit-padding-end: 40px;
+        font-size: 1.12rem;
+    }
+    
+    ol {
+        list-style: none;
+    }
+    
+    ol li {
+        padding: 1rem;
+        color: black;
+    }
+    
+    li {
+        color: #fff;
+    }
+    
+    .colfaq {
+        padding: 2rem;
+    }
+    
+    .main-sec {
+        padding: 3rem;
+        text-align: justify;
+    }
+    
+    @media screen and (max-width:767px) {
+        p {
+            font-size: 1rem;
+        }
+        .faqcont {
+            max-width: 100%;
+        }
+        .colfaq {
+            padding: 1rem;
+        }
+        .main-sec {
+            padding: 1.5rem;
+        }
+        ol {
+            /* padding-start: 0; */
+            -webkit-padding-start: 0;
+        }
+        h3 {
+            font-size: 1.6rem;
+            text-align: initial;
+        }
+        ol li {
+            padding: 0.5rem;
+        }
+        ul {
+            -webkit-padding-end: 20px;
+            -webkit-padding-start: 20px;
+        }
+        @media screen and (max-width:600px) {
+            .main-sec {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+        @media screen and (max-width:400px) {
+            h3 {
+                font-size: 1.4rem;
+            }
+        }
+    }
+</style>
+
+<section style=" background-color:#f93">
+    <div class="container faqcont">
+        <div classs="row">
+
+
+            <div class="col-md-12"></div>
+
+            <div class="col-md-12 colfaq">
+
+                <div class="main-sec">
+                    <h3>Frequently Asked Questions about MayaOnline.io ?</h3>
+
+                    <ol>
+                        <li>
+                            <h4> What is Maya? </h4>
+                            <p>
+                                MayaOnline.io - Is the first solution of its type. And it is free for basic usage. It leverages the cross-cloud capabilities of Kubernetes and containers themselves and extends them to the data-plane with the help of the fully containerized OpenEBS. We
+                                call the solution a “Cross-cloud data-plane”.
+                            </p>
+                            <ul>
+                                <li>
+                                    <strong style="color:black">Analytics </strong> - MayaOnline shows how workloads are performing and consuming data across clouds; for example, which storage policies result in higher performance for your workloads,
+                                    irrespective of the underlying cloud vendor or data center?
+                                </li>
+                                <li>
+                                    <strong style="color:black">ChatOps and other controls</strong> - In addition to the graphical interface enabling analytics and the creation and management of automations, ChatOps is used to communicate with users.
+                                    MayaOnline can post status to Slack channels and users can initiate actions from these channels that MayaOnline will execute. ChatOps also will enable developers and administrators to respond to data related alerts
+                                    and also query the data plane from slack itself.
+                                </li>
+                                <li>
+                                    <strong style="color:black">API driven</strong> - While ChatOps is useful to keep the users in the loop, many decisions in large environments are made as a part of a pipeline or other automation. MayaOnline can be queried
+                                    for relevant information or can proactively post information via its Rest APIs.
+                                </li>
+                                <li>
+                                    <strong style="color:black">cMotion</strong> - MayaOnline will be able to balance workloads across clouds proactively. This balancing is implemented in a Kubernetes friendly way - where OpenEBS instances are reconfigured
+                                    along with the storage policies that are used by Kubernetes to control them. At KubeCon 2017 in Austin, we are demonstrating cross-cloud balancing where workloads (both stateless and stateful) from one cloud are automatically
+                                    replicated to other cloud vendor and made available in that cloud. This capability will be expanded significantly in 2018.
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <h4>Why is it called Maya?</h4>
+                            <p>
+                                The meaning in Sanskrit of Maya is typically translated as magic. And in Hindu Vedic writings, Maya often denotes wisdom or power. In our case, we chose the word Maya because we think that only a set of software and underlying software as a service solutions
+                                as powerful as MayaOnline and OpenEBS working together to extend Kubernetes can finally address the challenges of cloud lock-in and of managing storage and data services for today’s ever more dynamic and complex microservices
+                                and containerized environments; making easy the managing of disparate workloads across disparate clouds, as well as on-premises, for optimization and the managing of cloud lock-in is “magic”. Also, as a global company,
+                                we are very proud of our roots in Bangalore and of the tremendous support Indian open source communities give us.
+                            </p>
+                        </li>
+                        <li>
+                            <h4>Why did you need MayaOnline when you already have OpenEBS?</h4>
+                            <p>As explained above, MayaOnline is a new type of solution, and we believe it complements OpenEBS in important ways. OpenEBS is best known for enabling each devops team and workload to have its own storage controller, often invoking
+                                unique storage policies. MayaOnline simplifies that management of fleets of OpenEBS systems and extends them via capabilities such as cross-cloud replication, analytics, and ChatOps; all of these capabilities benefit by
+                                being run in the cloud as SaaS.</p>
+
+                        </li>
+                        <li>
+                            <h4>
+                                Who is using Maya today?
+                            </h4>
+                            <p>
+                                Today a subset of the thousands of early users of OpenEBS are using Maya for its free analytics, ChatOps integration, and cross-cloud workload management. Maya remains in early access and is invite only for now. Please request an invite by registering
+                                (GitHub one click registration available) at: www.mayaonline.io
+                            </p>
+                        </li>
+
+                        <li>
+                            <h4>How much does MayaOnline.io cost?</h4>
+                            <p>
+                                MayaOnline.io is free to accepted users. There will be a charge for power users in the future; there will always be a free tier for basic users.
+                            </p>
+                        </li>
+                        <li>
+                            <h4>
+                                How do you secure MayaOnline?
+                            </h4>
+                            <p>
+                                This is an excellent question. Security should be multi-layered of course. In the case of MayaOnline that security begins with OpenEBS itself being built to be secure, with at rest and in flight encryption; this encryption helps to secure the data and
+                                is unique for an open source containerized storage solution. The control plane is then secured through the use of SSL between OpenEBS and MayaOnline. A variety of additional security capabilities are being added to both
+                                OpenEBS and MayaOnline before release for general commercial availability, including integration with more enterprise access control systems and role based access control.
+                            </p>
+                            <p>
+                                In addition, both OpenEBS and MayaOnline are built and updated via an automated approach that constantly scans for vulnerabilities; once identified in the upstream, such as in underlying packages, these vulnerabilities are fixed as a part of the build
+                                and test process.
+                            </p>
+                        </li>
+                        <li>
+                            <h4>
+                                What is next for MayaOnline?
+                            </h4>
+                            <p>
+                                We are listening closely to user feedback. You can expect progress along the following dimensions: analytics, chatops, cross cloud workload management and various capabilities that might be called “enterprise capabilities” such as LDAP integration and
+                                improved role based access controls.
+                            </p>
+                            <p>
+                                One interesting set of capabilities under development enables the use of information from our analytics and other sources of information to suggest changes to storage policies; for example, a user might be able to request that MayaOnline suggest changes
+                                to underlying storage policies anytime the observed usage by a set of users of a particular cloud crosses a certain threshold.
+                            </p>
+                            <p>
+                                We also have some work to do to insure that MayaOnline supports infrastructure as code. In the near future, the configuration of your services on MayaOnline will be available as a simple YAML file, much as storage policies are stored in Kubernetes environments.
+                                Additionally, we are looking at having any configuration changes suggested by MayaOnline be sent as a PR to your underlying git repository.
+                            </p>
+                        </li>
+
+                        <li>
+                            <h4>
+                                How does the ChatOps work?
+                            </h4>
+                            <p>
+                                Today MayaOnline’s ChatOps only integrates with Slack. Slack has a well formed and broadly adopted method for integrations and is by far the most widely used chat for ChatOps.
+                            </p>
+                            <p>
+                                However, we are using an abstraction layer based on a leading open source bot framework called botman. This will allow MayaOnline to work with all leading chat projects. Each user will have a dedicated chatbot at MayaOnline, and will cover the basic data
+                                operational management flow through the bot. Users can query the status and history of any component of OpenEBS clusters across the clouds. Similarly, smart alerts are delivered to Slack and seek an interactive response
+                                to manage the alerting situation.
+                            </p>
+                            <p>
+                                Our design is to keep the business logic for communications and for any automations invoked by MayaOnline and confirmed by ChatOps within MayaOnline and not in the bot; we also adhere to infrastructure as code in our architecture. For example, if a user
+                                invokes additional replication via MayaOnline, this means that one or more OpenEBS instances need to perform this replication. MayaOnline then makes the equivalent of a pull request to an underlying repository tracking
+                                storage policies for the OpenEBS instance in question.
+                            </p>
+
+                        </li>
+                        <li>
+                            <h4>
+                                How does the analytics work?
+                            </h4>
+                            <p>
+                                MayaOnline analytics are based on the CNCF project Prometheus. Prometheus is noted for its scalability and usefulness in distributed environments. Much more about Prometheus here: https://prometheus.io
+                            </p>
+                            <p>
+                                At the centre of our architecture, MayaOnline runs a Prometheus system for each user and interacts with the Prometheus node exporters of each cluster in user’s cloud deployments or in user’s on-premise instances. These time-series data entries are centrally
+                                stored and curated on user’s prometheus instance on MayaOnline.
+                            </p>
+                            <p>
+                                Intuitive graphs are delivered using Grafana.
+                            </p>
+                        </li>
+
+                        <li>
+                            <h4>How does cMotion - for cross-cloud load balancing and replication work?</h4>
+                            <p>
+                                MayaOnline includes initial cMotion capabilities. These rely upon the power of individual OpenEBS containers which - if they are using the new cStore storage engine - have the ability to deliver copy on write based snapshots. These snapshots - and the
+                                approach to writing data to disk itself - are inherently safer and more efficient than many other approaches to replication. When used for replication, this approach means that only changes to the underlying data are sent
+                                across the network to the far end. The entire experience of moving the OpenEBS data containers across user’s Kubernetes clusters is seamlessly handled by MayaOnline.
+                            </p>
+                        </li>
+
+                        <li>
+                            <h4>
+                                Can I connect my OpenSource storage X or my proprietary storage Y to Maya?
+                            </h4>
+                            <p>
+                                In short, no. However there will likely at least be a community supported approach to this as we have heard the request many times. Maya itself is using Prometheus, as stated above, so that piece is straight-forward; on the other hand, actually being
+                                able customize storage policies per workload and the ability to move those workloads - and their storage policies - across clouds is perhaps only currently possible for PODs where OpenEBS is providing the storage. Please
+                                join us on the OpenEBS slack channel and let us know your thoughts.
+                            </p>
+                        </li>
+                    </ol>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>

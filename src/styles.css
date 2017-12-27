@@ -1,0 +1,2188 @@
+    /* You can add global styles to this file, and also import other style files */
+    /*
+///////////////////////////////////////////////////////////////////////////////////////////
+                        MAYADATA HEADER
+///////////////////////////////////////////////////////////////////////////////////////////
+*/
+    /* @font-face {
+            font-family: Mark;
+            src: url(../fonts/mark/Mark-Bold.eot);
+            src: url(../fonts/mark/Mark-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/mark/Mark-Bold.woff) format("woff"), url(../fonts/mark/Mark-Bold.svg#Mark-Bold) format("svg");
+            font-weight: 700;
+            font-style: normal;
+            font-stretch: normal;
+            unicode-range: U+0020-00FE
+        }
+        
+        @font-face {
+            font-family: Mark;
+            src: url(../fonts/mark/Mark-Extralight.eot);
+            src: url(../fonts/mark/Mark-Extralight.eot?#iefix) format("embedded-opentype"), url(../fonts/mark/Mark-Extralight.woff2) format("woff2"), url(../fonts/mark/Mark-Extralight.woff) format("woff"), url(../fonts/mark/Mark-Extralight.svg#Mark-Extralight) format("svg");
+            font-weight: 200;
+            font-style: normal;
+            font-stretch: normal;
+            unicode-range: U+0020-00FE
+        }
+        
+        @font-face {
+            font-family: Mark;
+            src: url(../fonts/mark/Mark-Light.eot);
+            src: url(../fonts/mark/Mark-Light.eot?#iefix) format("embedded-opentype"), url(../fonts/mark/Mark-Light.woff) format("woff"), url(../fonts/mark/Mark-Light.svg#Mark-Light) format("svg");
+            font-weight: 300;
+            font-style: normal;
+            font-stretch: normal;
+            unicode-range: U+0020-00FE
+        }
+        
+        @font-face {
+            font-family: Mark;
+            src: url(../fonts/mark/Mark-Regular.eot);
+            src: url(../fonts/mark/Mark-Regular.eot?#iefix) format("embedded-opentype"), url(../fonts/mark/Mark-Regular.woff) format("woff"), url(../fonts/mark/Mark-Regular.svg#Mark-Regular) format("svg");
+            font-weight: 400;
+            font-style: normal;
+            font-stretch: normal;
+            unicode-range: U+0020-00FE
+        }
+        
+        @font-face {
+            font-family: Menlo;
+            src: url(../fonts/menlo/Menlo-Regular.eot);
+            src: url(../fonts/menlo/Menlo-Regular.eot?#iefix) format("embedded-opentype"), url(../fonts/menlo/Menlo-Regular.woff) format("woff"), url(../fonts/menlo/Menlo-Regular.ttf) format("truetype"), url(../fonts/menlo/Menlo-Regular.svg#Menlo-Regular) format("svg");
+            font-weight: 400;
+            font-style: normal
+        }
+        
+        @font-face {
+            font-family: Gotham;
+            src: url(../fonts/gotham/Gotham-Bold_gdi.eot);
+            src: url(../fonts/gotham/Gotham-Bold_gdi.eot?#iefix) format("embedded-opentype"), url(../fonts/gotham/Gotham-Bold_gdi.woff) format("woff"), url(../fonts/gotham/Gotham-Bold_gdi.svg#Mark-Bold) format("svg");
+            font-weight: 700;
+            font-style: normal;
+            font-stretch: normal;
+            unicode-range: U+0020-00FE
+        }
+         */
+    
+    @font-face {
+        font-family: Mark;
+        src: url(assets/fonts/Mark/Mark-Light.eot);
+        src: url(assets/fonts/Mark/Mark-Light.eot?#iefix) format("embedded-opentype"), url(assets/fonts/Mark/Mark-Light.woff) format("woff");
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        unicode-range: U+0020-00FE
+    }
+    
+    @font-face {
+        font-family: Mark;
+        src: url(assets/fonts/Mark/Mark-Regular.eot);
+        src: url(assets/fonts/Mark/Mark-Regular.eot?#iefix) format("embedded-opentype"), url(assets/fonts/Mark/Mark-Regular.woff) format("woff"), url(assets/fonts/Mark/Mark-Regular.svg#Mark-Regular) format("svg");
+        font-weight: 400;
+        font-style: normal;
+        font-stretch: normal;
+        unicode-range: U+0020-00FE
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: none;
+    }
+    
+    body {
+        font-family: 'Mark';
+    }
+    
+    .mayadata-img {
+        height: 40px;
+    }
+    
+    .nav-item {
+        padding: 0;
+        margin: 0% 3%;
+        border-radius: 10rem
+    }
+    
+    .b-d {
+        border: 1px dotted;
+    }
+    
+    .b-d-r {
+        border: 2px dotted red;
+    }
+    
+    .o-b {
+        background-color: #e2e2e2;
+    }
+    
+    .o-m {
+        background-color: #699ca4;
+    }
+    
+    .navbar-expand-md .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row;
+        display: flex;
+        -webkit-flex-direction: row;
+        flex-direction: row;
+        -webkit-justify-content: flex-end;
+        justify-content: flex-end;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: #ff9933;
+        font-size: 1.15rem;
+        line-height: 1;
+    }
+    
+    .navbar-light .navbar-nav .nav-link:hover,
+    .navbar-light .navbar-nav .nav-link:focus {
+        color: #444444;
+    }
+    /* 
+///////////////////////////////////////////////////////////////////////////////////////////
+                MAYADATA MULE SECTION 
+///////////////////////////////////////////////////////////////////////////////////////////
+*/
+    
+    #hero {
+        display: grid;
+        align-items: center;
+        background-color: #ff9933;
+    }
+    
+    .reducemargin {
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+    
+    .firstsection {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .mayabanner .mayadetails div {
+        width: 100%;
+    }
+    
+    .mayabanner .maya-img {
+        height: 209px;
+        width: 209px;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+    
+    .mayabanner .maya-img .maya-imgtag {
+        height: 160px;
+        width: 110px;
+        margin-top: 12%;
+        margin-left: 19%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .mayabanner .mayadetails div .display-5 {
+        color: #fff;
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+    
+    .mayabanner .mayadetails .maya-btn {
+        border-radius: 0.5rem;
+        font-size: 1.1em;
+        font-weight: bold;
+        background-color: #fff;
+        color: #ff9933;
+        padding: 1% 3%;
+        /* margin-right: 4%; */
+        border: 1px solid transparent;
+    }
+    
+    .image-col {
+        padding-right: 0;
+    }
+    
+    .basic-info {
+        padding-top: 7%;
+        font-size: 2rem;
+        color: grey;
+    }
+    
+    .basic-info h1 {
+        font-size: 3rem;
+        font-weight: normal;
+        color: black;
+    }
+    
+    .image-col .image-container img {
+        padding-top: 10%;
+        height: 400px;
+    }
+    
+    .image-col .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* 
+        ANIMATION THINGS HERE!
+        */
+    
+    .maintainer {
+        padding: 5%;
+    }
+    
+    .maya-online-sec {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 3%;
+        margin-top: -17%;
+    }
+    
+    .mayaonline-div {
+        padding: 0%;
+        border: none;
+        border-radius: 1rem;
+        margin: 2%
+    }
+    
+    .someid {
+        width: 62%;
+    }
+    
+    #clouds p {
+        font-size: 1rem;
+    }
+    
+    #clouds {
+        padding: 5%;
+    }
+    /*Time to finalise the cloud shape*/
+    
+    .cloud {
+        width: 200px;
+        height: 60px;
+        background: #ffffff;
+        border-radius: 200px;
+        -moz-border-radius: 200px;
+        -webkit-border-radius: 200px;
+        position: relative;
+    }
+    
+    .cloud:before,
+    .cloud:after {
+        content: '';
+        position: absolute;
+        background: #ffffff;
+        width: 100px;
+        height: 80px;
+        position: absolute;
+        top: -15px;
+        left: 10px;
+        border-radius: 100px;
+        -moz-border-radius: 100px;
+        -webkit-border-radius: 100px;
+        -webkit-transform: rotate(30deg);
+        transform: rotate(30deg);
+        -moz-transform: rotate(30deg);
+    }
+    
+    .cloud:after {
+        width: 120px;
+        height: 120px;
+        top: -55px;
+        left: auto;
+        right: 15px;
+    }
+    /*Time to animate*/
+    
+    .x1 {
+        -webkit-animation: moveclouds 4.5s linear infinite;
+        -moz-animation: moveclouds 4.5s linear infinite;
+        -o-animation: moveclouds 4.5s linear infinite;
+    }
+    /*variable speed, opacity, and position of clouds for realistic effect*/
+    
+    .x2 {
+        top: 23px;
+        left: 3px;
+        -webkit-transform: scale(0.4);
+        -moz-transform: scale(0.4);
+        transform: scale(0.4);
+        opacity: 0.4;
+        /*opacity proportional to the size*/
+        /*Speed will also be proportional to the size and opacity*/
+        /*More the speed. Less the time in 's' = seconds*/
+        -webkit-animation: moveclouds 9.5s linear infinite;
+        -moz-animation: moveclouds 9.5s linear infinite;
+        -o-animation: moveclouds 9.5s linear infinite;
+    }
+    
+    .x5 {
+        top: 39px;
+        left: -42px;
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.5);
+        transform: scale(0.5);
+        opacity: 0.2;
+        /*opacity proportional to the size*/
+        /*Speed will also be proportional to the size and opacity*/
+        /*More the speed. Less the time in 's' = seconds*/
+        -webkit-animation: moveclouds 7s linear infinite;
+        -moz-animation: moveclouds 7s linear infinite;
+        -o-animation: moveclouds 7s linear infinite;
+    }
+    
+    .x3 {
+        left: -250px;
+        top: 50px;
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        transform: scale(0.8);
+        opacity: 0.8;
+        /*opacity proportional to the size*/
+        -webkit-animation: moveclouds 4s linear infinite;
+        -moz-animation: moveclouds 4s linear infinite;
+        -o-animation: moveclouds 4s linear infinite;
+    }
+    
+    .x4 {
+        left: -20px;
+        top: 100px;
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        transform: scale(0.8);
+        opacity: 0.8;
+        /*opacity proportional to the size*/
+        -webkit-animation: moveclouds 5s linear infinite;
+        -moz-animation: moveclouds 5s linear infinite;
+        -o-animation: moveclouds 5s linear infinite;
+    }
+    
+    @-webkit-keyframes moveclouds {
+        0% {
+            margin-left: 80%;
+        }
+        100% {
+            margin-left: 0%;
+        }
+    }
+    
+    @-moz-keyframes moveclouds {
+        0% {
+            margin-left: 70%;
+        }
+        100% {
+            margin-left: 0%;
+        }
+    }
+    
+    @-o-keyframes moveclouds {
+        0% {
+            margin-left: 70%;
+        }
+        100% {
+            margin-left: 0%;
+        }
+    }
+    /*
+//////////////////////////////////////////////////////////////////////////////////
+        PURE OPENEBS SECTION
+//////////////////////////////////////////////////////////////////////////////////
+        */
+    
+    .describe {
+        display: grid;
+        /* margin: 6% 0%;
+            padding: 8.5% 0%; */
+    }
+    
+    .icon-class {
+        display: table-caption;
+        width: 100%;
+        height: 107px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .icon-img {
+        /* width: 72%; */
+        height: 120px;
+    }
+    
+    .icon-div {
+        display: inline-flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-size: 1rem;
+        padding-left: 3%;
+        padding-top: 2%;
+    }
+    
+    .icon-para {
+        margin-top: 0%;
+        font-size: 1rem;
+        margin: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .r-p {
+        margin: 0;
+        padding: 0;
+    }
+    /* .openebs-release {
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    } */
+    
+    .openebs-05 {
+        /* display: inline-flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        text-align: center;
+    }
+    
+    .openebs-05 p {
+        font-weight: 600;
+        font-size: 1.35rem;
+    }
+    
+    .openebs-btn-05 {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* padding-left: 7%; */
+    }
+    
+    .openebs-btn-05 button {
+        background-color: #fc863f;
+        font-size: 1.1rem;
+        color: #fff;
+    }
+    /*ali*/
+    
+    .kubectlcmd {
+        background-color: #808080;
+        /* border: none; */
+        border-radius: 0rem;
+        padding: 2% 0.2%;
+        /* width: 100%; */
+    }
+    
+    .openebs-section .kubectlcmd p {
+        font-size: 0.8rem;
+        color: #e8e8e8;
+        text-align: center;
+        font-family: courier new;
+    }
+    /*
+///////////////////////////////////////////////////////////////////////////////////
+    MAYA ONLINE API SECTION START HERE!
+///////////////////////////////////////////////////////////////////////////////////
+*/
+    
+    .docs-new {
+        color: #ffffff;
+        font-weight: 600;
+    }
+    
+    .openebs-lead {
+        text-align: left;
+    }
+    
+    .mayaonline-section {
+        background-color: #F2F5F4;
+    }
+    
+    .mayaonline-section .reducemargin {
+        margin: 0%;
+    }
+    
+    .mayaapi ul {
+        width: 100%;
+        text-align: justify;
+        font-size: 0.75rem;
+        padding-left: 0;
+    }
+    
+    .maya-online {
+        text-align: center;
+        margin: 10% auto;
+        height: 100%;
+    }
+    
+    .maya-online img {
+        height: auto;
+        width: 96%;
+    }
+    /*
+/////////////////////////////////////////////////////////////////////////////////////
+                    OPENEBS  & KUBERNETES SECTION
+/////////////////////////////////////////////////////////////////////////////////////
+*/
+    
+    .openebs-section {
+        -webkit-box-align: left;
+        -ms-flex-align: left;
+        align-items: left;
+        text-align: left;
+        /* background-color: #F2F5F4; */
+        padding: 5%;
+        background-color: #e2e2e2;
+        margin: 1% 1%;
+    }
+    
+    .openebs-section img {
+        /* width: 100%; */
+        /* height: auto; */
+        margin-top: 0%;
+    }
+    
+    .openebs-section p {
+        /* margin-top: 5%; */
+        font-size: 1.1rem;
+        /* text-align: justify; */
+    }
+    
+    .openebs-btn button {
+        background-color: #ff9933;
+        border: 0;
+        padding: 1% 5%;
+        font-size: 1.15rem;
+        border-radius: 3rem;
+    }
+    
+    .openebs-btn button:hover,
+    .openebs-btn button:active,
+    .openebs-btn button:focus {
+        background-color: #ff9933;
+        outline: none;
+        border: 0;
+    }
+    
+    .kubernetes-sec {
+        height: 100%;
+        width: auto;
+        border: 1px solid #ff9933;
+        border-radius: 1rem;
+        padding: 5%;
+    }
+    
+    .kubernetes-sec img {
+        width: 100%;
+        height: auto
+    }
+    
+    .kubernetes-docs {
+        padding-left: 10%;
+    }
+    
+    .kubernetes-docs button {
+        text-align: left;
+        align-items: left;
+        background-color: #ff9933;
+        border: 0;
+        padding: 1% 5%;
+        font-size: 1.15rem;
+        border-radius: 3rem;
+    }
+    
+    .kubernetes-docs button:hover,
+    .kubernetes-docs button:focus,
+    .kubernetes-docs button:active {
+        background-color: #ff9933;
+        outline: none;
+        border: 0;
+    }
+    
+    .kubernetes-docs h3 {
+        font-size: 2.1rem;
+        color: #ff9933;
+        font-weight: normal;
+    }
+    /*
+///////////////////////////////////////////////////////////////////////////////////////////
+                    SLACK AND MAYAONLINE SECTION
+///////////////////////////////////////////////////////////////////////////////////////////
+*/
+    
+    .slack-maya {
+        /* background-color: #F2F5F4; */
+        /* padding: 5% 0%; */
+        background-color: #18899B;
+    }
+    
+    .screen-slackcommand {
+        text-align: center;
+        height: auto;
+        width: 75%;
+        margin: auto;
+        width: 100%;
+        border: 1px solid #ff9933;
+        border-radius: 1rem;
+        padding: 5%;
+    }
+    
+    .screen-slackcommand p {
+        margin-top: 7%;
+        font-size: 1rem;
+    }
+    
+    .backgroundimage {
+        background-image: url('assets/images/cloud-background.svg');
+        background-repeat: no-repeat;
+    }
+    
+    .mule-mayaonline {
+        text-align: center;
+        margin-top: 0%;
+        height: 100%;
+        width: 100%;
+        border: 1px solid #ff9933;
+        border-radius: 1rem;
+        padding: 5%;
+        background-color: #699ca4;
+        background-image: url('assets/images/cloud-background.svg');
+        background-repeat: no-repeat;
+    }
+    
+    .mule-mayaonline img {
+        height: auto;
+        width: 75%;
+    }
+    
+    .mule-mayaonline .flying-mule {
+        transform: rotateY(0deg);
+        width: 63%;
+        margin-top: 0%;
+    }
+    
+    .maya-mule-row {
+        margin-top: 10%;
+    }
+    
+    .maya-button {
+        margin-top: 8%;
+    }
+    
+    .maya-button button {
+        background-color: #ff9933;
+        border: 0;
+        padding: 1% 5%;
+        font-size: 1.15rem;
+        border-radius: 3rem;
+        margin: auto 3%;
+    }
+    
+    .maya-button button:hover,
+    .maya-button button:active,
+    .maya-button button:focus {
+        background-color: #ff9933;
+        outline: none;
+        border: 0;
+    }
+    
+    .requestademo button {
+        padding: 1% 4%;
+    }
+    /* 
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+                MOBILE View : Media Query
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+*/
+    
+    @media screen and (max-width:767px) {
+        .mobile-view {
+            display: block;
+        }
+        .desktop-view {
+            display: none;
+        }
+        .navbar-expand-md .navbar-nav {
+            flex-direction: column;
+        }
+        .container {
+            max-width: 100%;
+        }
+        .mule-flex {
+            flex-direction: column-reverse;
+        }
+        /* 
+///////////////////////////////////////////////////////////////////////////////////////////
+        MAYADATA MULE SECTION 
+///////////////////////////////////////////////////////////////////////////////////////////
+*/
+        .mayabanner .maya-img .maya-imgtag {
+            height: 160px;
+            width: 110px;
+            margin-top: 12%;
+            margin-left: 20%;
+        }
+        .mayabanner {
+            background-color: #fff;
+            margin-bottom: 0;
+        }
+        .mayabanner {
+            background-color: #ff9933;
+        }
+        .mayabanner .mayadetails {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            /* margin-top: 5%; */
+        }
+        .mayabanner .mayadetails div .display-5 {
+            color: #fff;
+        }
+        .mayabanner .mayadetails .maya-btn {
+            font-size: 1.15rem;
+        }
+        .maya-content {
+            margin: 2%;
+        }
+        .lead {
+            font-size: 1.25rem;
+            font-weight: 300;
+        }
+        .endflex {
+            display: flex;
+            justify-content: center;
+        }
+        .mobile-flex-reverse {
+            flex-direction: column-reverse;
+            /* margin-top: 10%;
+                margin-bottom: 10%; */
+        }
+        .welcome {
+            text-align: center;
+            color: #474240;
+        }
+        /*
+///////////////////////////////////////////////////////////////////////////////////
+    ANIMATE SECTION
+///////////////////////////////////////////////////////////////////////////////////
+*/
+        #animation {
+            display: grid;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            background-color: #18899B;
+        }
+        .mayaonline-animate {
+            display: flex;
+            justify-content: flex-start;
+            text-align: center;
+            align-items: center;
+        }
+        .mayaonline-animate2 {
+            display: flex;
+            justify-content: flex-end;
+            text-align: center;
+            align-items: center;
+        }
+        .reduce-size {
+            height: auto;
+            width: 75%;
+        }
+        .reduce-size-datacenter {
+            width: 65%;
+        }
+        .devops {
+            height: 109px;
+            width: 113px;
+            margin-left: -20%;
+        }
+        .devops img {
+            width: 100%;
+        }
+        .someid {
+            width: 100%;
+        }
+        .x5 {
+            top: 54px;
+            left: -42px;
+            -webkit-transform: scale(0.3);
+            transform: scale(0.3);
+        }
+        .x2 {
+            top: 52px;
+            left: 3px;
+        }
+        #clouds p {
+            font-size: 0.83rem;
+        }
+        .mobile-btn {
+            font-size: 0.83rem;
+        }
+        /*
+///////////////////////////////////////////////////////////////////////////////////
+MAYA ONLINE API SECTION START HERE!
+///////////////////////////////////////////////////////////////////////////////////
+*/
+        .openebs-section img {
+            /* width: 100%; */
+            /* margin-top: 5%; */
+        }
+        .openebs-lead {
+            text-align: center;
+        }
+        .mayaapi ul {
+            font-size: 1.05rem;
+        }
+        .mobile-img-margin {
+            margin-top: 5%;
+        }
+        /*
+/////////////////////////////////////////////////////////////////////////////////////
+            OPENEBS  & KUBERNETES SECTION
+/////////////////////////////////////////////////////////////////////////////////////
+*/
+        .openebs-section {
+            text-align: center;
+            margin: 0;
+        }
+        .openebs-section p {
+            /* margin-top: 3.5%; */
+            font-size: 1.15rem;
+            text-align: justify;
+        }
+        .openebs-section img {
+            /* width: 100%; */
+            /* margin-top: 5%; */
+        }
+        .openebs-btn button {
+            font-size: 1rem;
+        }
+        .kubernetes-sec {
+            text-align: center;
+            margin: 5% auto;
+        }
+        .kubernetes-docs {
+            padding-left: 0%;
+        }
+        .kubernetes-docs h3 {
+            font-size: 1.5rem;
+        }
+        .kubernetes-docs button {
+            font-size: 1rem;
+        }
+        /*
+
+//////////////////////////////////////////////////////////////////////////////////
+        PURE OPENEBS SECTION
+//////////////////////////////////////////////////////////////////////////////////
+        */
+        .describe {
+            display: grid;
+            /* margin: 6% 0%; */
+            /* padding: 8.5% 0%; */
+        }
+        .icon-class {
+            display: table-caption;
+            /* width: 39%; */
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+        .ebsheight .ebsimg {
+            height: 70px;
+        }
+        .feature-icon {
+            color: #ee5a2b;
+        }
+        .openebs-section {
+            padding: 5% 5%;
+        }
+        .docslink {
+            margin-top: 0%;
+            padding: 10%;
+        }
+        .openebs-section .openebsrelease {
+            color: #ee5a2b;
+            font-weight: bold;
+            font-size: 1.25rem;
+            text-align: center;
+        }
+        .openebs-section {
+            text-align: center;
+            margin: 0;
+            border-bottom: 2px double #ff9933;
+        }
+        .rb {
+            border-bottom: none;
+        }
+        .ebsheight {
+            /* height: 500px; */
+        }
+        /*
+///////////////////////////////////////////////////////////////////////////////////////////
+            SLACK AND MAYAONLINE SECTION
+///////////////////////////////////////////////////////////////////////////////////////////
+*/
+        .slack-maya {
+            /* padding: 4% 0%; */
+        }
+        .screen-slackcommand {
+            width: 100%;
+            margin: 5% auto;
+        }
+        .screen-slackcommand p {
+            font-size: 1.15rem;
+            text-align: justify;
+        }
+        .mule-mayaonline {
+            margin: 5% auto;
+        }
+        .icon-para {
+            margin-top: 0%;
+            font-size: 1rem;
+            margin: 0;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+        .mule-mayaonline img {
+            width: 100%;
+            height: auto
+        }
+        .maya-button button {
+            font-size: 1rem;
+        }
+        /*
+///////////////////////////////////////////////////////////
+Footer : Mobile Footer
+///////////////////////////////////////////////////////////
+*/
+        .mobile-align {
+            flex-direction: column;
+        }
+    }
+    
+    @media screen and (max-width:576px) {
+        .mayadata-img1 {
+            height: 20px;
+        }
+        /* 
+    ////////////////////////////////////////////////////////////////////////////////////
+            MAYADATA MULE SECTION 
+    /////////////////////////////////////////////////////////////////////////////////////
+    */
+        .mayabanner .maya-img {
+            height: 200px;
+            width: 200px;
+        }
+        .mayabanner .maya-img .maya-imgtag {
+            height: 160px;
+            width: 103px;
+            margin-top: 10%;
+            margin-left: 21%;
+        }
+        .mayabanner .mayadetails div {
+            padding: 0% 2%;
+        }
+        .mayabanner .mayadetails .maya-btn {
+            font-size: 1rem;
+        }
+        .mayabanner .mayadetails .maya-btn {
+            padding: 1% 4%;
+        }
+        .lead {
+            font-size: 1.15rem;
+        }
+        .welcome {
+            font-size: 2.1rem;
+            padding: 0% 3%;
+        }
+        /*
+ANIMATION  SECTION
+            */
+        .devops {
+            height: 109px;
+            width: 80px;
+            margin-left: 0%;
+        }
+        .openebs-section img {
+            /* width: 100%; */
+            /* height: auto; */
+            /* margin-top: 10% */
+        }
+        .x2 {
+            transform: scale(0.3);
+            top: 45px;
+            left: 3px;
+        }
+        .x5 {
+            top: 65px;
+            left: -42px;
+            -webkit-transform: scale(0.3);
+            transform: scale(0.25);
+        }
+        #clouds p {
+            font-size: 0.85rem;
+        }
+        /*
+    ///////////////////////////////////////////////////////////////////////////////////
+    MAYA ONLINE API SECTION START HERE!
+    ///////////////////////////////////////////////////////////////////////////////////
+    */
+        .mayaapi {
+            padding: 10% 0%;
+        }
+        .mayaapi ul {
+            font-size: 0.95rem;
+        }
+        .mobilepadding {
+            padding: 0 15%;
+        }
+        .padding-up {
+            padding-top: 10%;
+        }
+        .openebs-lead {
+            font-size: 2.2rem;
+            color: #ff9933;
+        }
+        .mobile-img-margin {
+            margin-top: 5%;
+            padding-bottom: 14%;
+        }
+        /*
+    /////////////////////////////////////////////////////////////////////////////////////
+                OPENEBS  & KUBERNETES SECTION
+    /////////////////////////////////////////////////////////////////////////////////////
+    */
+        .openebs-section {
+            padding: 5% 5%;
+        }
+        .openebs-section p {
+            font-size: 1rem;
+            padding: 2% 0%;
+            text-align: justify;
+        }
+        .kubernetes-sec {
+            padding: 0% 5%;
+        }
+        .icon-class img {
+            width: 50%;
+            margin-top: 0%;
+        }
+        .icon-para {
+            margin-top: 0%;
+        }
+        .openebs-section {
+            text-align: center;
+            margin: 0;
+            border-bottom: 2px double #ff9933;
+        }
+        .avoidgranu {
+            padding: 5%;
+        }
+        .rb {
+            border-bottom: none;
+        }
+        .openebs-btn-05 {
+            padding: 4% 0%;
+        }
+        .p-d-here {
+            align-items: center;
+            padding: 2%;
+        }
+        /*
+    ///////////////////////////////////////////////////////////////////////////////////////////
+                SLACK AND MAYAONLINE SECTION
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    */
+        .mule-mayaonline {
+            margin: 5% auto;
+            padding: 0% 5%;
+        }
+        .screen-slackcommand {
+            width: 100%;
+            margin: 5% auto;
+            padding: 0% 5%;
+        }
+        .screen-slackcommand p {
+            font-size: 1rem;
+        }
+    }
+    
+    @media screen and (max-width:576px) {
+        .large-viewport {
+            display: none;
+        }
+        .clouds {
+            margin-top: -30%;
+        }
+        .mayaonline-div {
+            padding: 0%;
+            border: none;
+        }
+        .mobile-btn {
+            font-size: 1.15rem;
+        }
+        .small-viewport {
+            margin-bottom: 8%;
+        }
+    }
+    
+    @media screen and (min-width:577px) {
+        .small-viewport {
+            display: none;
+        }
+    }
+    
+    @media screen and (max-width:480px) {
+        /* 
+    ///////////////////////////////////////////////////////////////////////////////////////////
+            MAYADATA MULE SECTION 
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    */
+        .mayabanner .mayadetails div .display-5 {
+            font-size: 1.45rem;
+        }
+        /* .lead {
+                font-size: 1rem;
+            } */
+        /*
+    ///////////////////////////////////////////////////////////////////////////////////
+   ANIMATION
+    ///////////////////////////////////////////////////////////////////////////////////
+    */
+        .devops {
+            height: 109px;
+            width: 58px;
+            margin-left: -22%;
+        }
+        .someid {
+            width: 139%;
+        }
+        @-webkit-keyframes moveclouds {
+            0% {
+                margin-left: 70%;
+            }
+            100% {
+                margin-left: 0%;
+            }
+        }
+        @-moz-keyframes moveclouds {
+            0% {
+                margin-left: 70%;
+            }
+            100% {
+                margin-left: 0%;
+            }
+        }
+        @-o-keyframes moveclouds {
+            0% {
+                margin-left: 70%;
+            }
+            100% {
+                margin-left: 0%;
+            }
+        }
+        /*
+    /////////////////////////////////////////////////////////////////////////////////////
+                OPENEBS  & KUBERNETES SECTION
+    /////////////////////////////////////////////////////////////////////////////////////
+    */
+        .icon-class img {
+            width: 58%;
+            margin-top: -16%;
+        }
+        .icon-para {
+            margin-top: -13%;
+        }
+        .openebs-section {
+            text-align: center;
+            margin: 0;
+            border-bottom: 2px double #ff9933;
+        }
+        .rb {
+            border-bottom: none;
+        }
+        .openebs-btn-05 {
+            padding: 10%;
+        }
+        /*
+    ///////////////////////////////////////////////////////////////////////////////////////////
+                SLACK AND MAYAONLINE SECTION
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    */
+        .screen-slackcommand p {
+            font-size: 0.95rem;
+        }
+    }
+    
+    @media screen and (max-width:400px) {
+        /* 
+    ///////////////////////////////////////////////////////////////////////////////////////////
+            MAYADATA MULE SECTION 
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    */
+        /*
+    ///////////////////////////////////////////////////////////////////////////////////
+   ANIMATION START HERE
+    ///////////////////////////////////////////////////////////////////////////////////
+    */
+        devops {
+            height: 109px;
+            width: 64px;
+        }
+        .someid {
+            width: 148%;
+        }
+        /*
+    /////////////////////////////////////////////////////////////////////////////////////
+                OPENEBS  & KUBERNETES SECTION
+    /////////////////////////////////////////////////////////////////////////////////////
+    */
+        .icon-class img {
+            width: 50%;
+            margin-top: 0%;
+        }
+        .icon-para {
+            margin-top: 0%;
+        }
+        .openebs-section {
+            text-align: center;
+            margin: 0;
+            border-bottom: 2px double #ff9933;
+        }
+        .rb {
+            border-bottom: none;
+        }
+        .openebs-btn-05 {
+            padding: 3%;
+        }
+        /*
+    ///////////////////////////////////////////////////////////////////////////////////////////
+                SLACK AND MAYAONLINE SECTION
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    */
+    }
+    
+    @media screen and (max-width:320px) {
+        /* 
+    ///////////////////////////////////////////////////////////////////////////////////////////
+            MAYADATA MULE SECTION 
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    */
+        /*
+    ///////////////////////////////////////////////////////////////////////////////////
+    ANIMATION STARTS HERE
+    ///////////////////////////////////////////////////////////////////////////////////
+    */
+        .devops {
+            height: 109px;
+            width: 52px;
+            margin-left: -22%;
+        }
+        .someid {
+            width: 168%;
+        }
+        /*
+    /////////////////////////////////////////////////////////////////////////////////////
+                OPENEBS  & KUBERNETES SECTION
+    /////////////////////////////////////////////////////////////////////////////////////
+    */
+        /*
+    ///////////////////////////////////////////////////////////////////////////////////////////
+                SLACK AND MAYAONLINE SECTION
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    */
+    }
+    /* 
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+                DESKTOP View : Media Query
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+*/
+    
+    @media screen and (min-width:768px) {
+        .mobile-view {
+            display: none;
+        }
+        .desktop-view {
+            display: block;
+        }
+        /* 
+///////////////////////////////////////////////////////////////////////////////////////////
+                MAYADATA MULE SECTION 
+///////////////////////////////////////////////////////////////////////////////////////////
+*/
+        .welcome {
+            color: #474240;
+        }
+        .lead {
+            font-size: 1.1rem;
+            font-weight: 200;
+            color: #ffffff;
+        }
+        .lead-2 {
+            font-size: 1.1rem;
+            font-weight: 200;
+            color: #474240;
+        }
+        .mayabanner {
+            background-color: #fff;
+            margin-bottom: 0;
+        }
+        .mayabanner {
+            background-color: #ff9933;
+        }
+        .mayabanner .mayadetails {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .mayabanner .mayadetails div .display-5 {
+            color: #fff;
+            font-size: 1.6rem;
+            font-weight: 300;
+        }
+        .mayabanner .mayadetails .maya-btn {
+            font-size: 1rem;
+            font-weight: 200;
+        }
+        .endflex {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        .maintainer {
+            padding: 5%;
+        }
+        .maya-online-sec {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-bottom: 3%;
+            margin-top: -17%;
+        }
+        .mayaonline-div {
+            padding: 0;
+            border: none;
+            border-radius: 1rem;
+            margin: 2%;
+        }
+        .someid {
+            width: 62%;
+        }
+        /*
+This is simple animation
+
+            */
+        #clouds {
+            margin: 2%;
+            padding: 0;
+            margin-top: -9%;
+        }
+        #clouds p {
+            font-size: 1.1rem;
+        }
+        /*Time to finalise the cloud shape*/
+        .cloud {
+            width: 200px;
+            height: 60px;
+            background: #ffffff;
+            border-radius: 200px;
+            -moz-border-radius: 200px;
+            -webkit-border-radius: 200px;
+            position: relative;
+        }
+        .cloud:before,
+        .cloud:after {
+            content: '';
+            position: absolute;
+            background: #ffffff;
+            width: 100px;
+            height: 80px;
+            position: absolute;
+            top: -15px;
+            left: 10px;
+            border-radius: 100px;
+            -moz-border-radius: 100px;
+            -webkit-border-radius: 100px;
+            -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+            -moz-transform: rotate(30deg);
+        }
+        .cloud:after {
+            width: 120px;
+            height: 120px;
+            top: -55px;
+            left: auto;
+            right: 15px;
+        }
+        /*Time to animate*/
+        .x1 {
+            -webkit-animation: moveclouds 4.5s linear infinite;
+            -moz-animation: moveclouds 4.5s linear infinite;
+            -o-animation: moveclouds 4.5s linear infinite;
+        }
+        /*variable speed, opacity, and position of clouds for realistic effect*/
+        .x2 {
+            top: 23px;
+            left: 3px;
+            -webkit-transform: scale(0.4);
+            -moz-transform: scale(0.4);
+            transform: scale(0.4);
+            opacity: 0.4;
+            /*opacity proportional to the size*/
+            /*Speed will also be proportional to the size and opacity*/
+            /*More the speed. Less the time in 's' = seconds*/
+            -webkit-animation: moveclouds 9.5s linear infinite;
+            -moz-animation: moveclouds 9.5s linear infinite;
+            -o-animation: moveclouds 9.5s linear infinite;
+        }
+        .x5 {
+            top: 39px;
+            left: -42px;
+            -webkit-transform: scale(0.5);
+            -moz-transform: scale(0.5);
+            transform: scale(0.5);
+            opacity: 0.2;
+            /*opacity proportional to the size*/
+            /*Speed will also be proportional to the size and opacity*/
+            /*More the speed. Less the time in 's' = seconds*/
+            -webkit-animation: moveclouds 7s linear infinite;
+            -moz-animation: moveclouds 7s linear infinite;
+            -o-animation: moveclouds 7s linear infinite;
+        }
+        .x3 {
+            left: -250px;
+            top: 50px;
+            -webkit-transform: scale(0.8);
+            -moz-transform: scale(0.8);
+            transform: scale(0.8);
+            opacity: 0.8;
+            /*opacity proportional to the size*/
+            -webkit-animation: moveclouds 4s linear infinite;
+            -moz-animation: moveclouds 4s linear infinite;
+            -o-animation: moveclouds 4s linear infinite;
+        }
+        .x4 {
+            left: -20px;
+            top: 100px;
+            -webkit-transform: scale(0.8);
+            -moz-transform: scale(0.8);
+            transform: scale(0.8);
+            opacity: 0.8;
+            /*opacity proportional to the size*/
+            -webkit-animation: moveclouds 5s linear infinite;
+            -moz-animation: moveclouds 5s linear infinite;
+            -o-animation: moveclouds 5s linear infinite;
+        }
+        @-webkit-keyframes moveclouds {
+            0% {
+                margin-left: 80%;
+            }
+            100% {
+                margin-left: 0%;
+            }
+        }
+        @-moz-keyframes moveclouds {
+            0% {
+                margin-left: 70%;
+            }
+            100% {
+                margin-left: 0%;
+            }
+        }
+        @-o-keyframes moveclouds {
+            0% {
+                margin-left: 70%;
+            }
+            100% {
+                margin-left: 0%;
+            }
+        }
+        /*
+///////////////////////////////////////////////////////////////////////////////////
+    ANIMATE SECTION
+///////////////////////////////////////////////////////////////////////////////////
+*/
+        #animation {
+            display: grid;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            background-color: #18899B;
+        }
+        .mayaonline-animate {
+            display: flex;
+            justify-content: flex-start;
+            text-align: center;
+            align-items: center;
+        }
+        .mayaonline-animate2 {
+            display: flex;
+            justify-content: flex-end;
+            text-align: center;
+            align-items: center;
+        }
+        .reduce-size {
+            height: auto;
+            width: 63%;
+        }
+        .reduce-size-datacenter {
+            width: 56%;
+        }
+        /* .maya-online-sec {
+                width: 100%;
+            }
+            .maya-online-logo {
+                width: 33.333333%;
+            } */
+        /*
+/////////////////////////////////////////////////////////////////////////////////////
+                   PURE OPENEBS  & KUBERNETES SECTION
+/////////////////////////////////////////////////////////////////////////////////////
+*/
+        /* .openebs-section img {
+                width: 85%;
+                margin-top: 6%;
+            } */
+        .ebsheight {
+            height: 426px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+        }
+        .ebsimg {
+            height: 70px;
+        }
+        .avoidgranu {
+            width: 100%;
+        }
+        .feature-icon {
+            font-size: 1.5rem;
+        }
+        .openebs-img {
+            height: auto;
+            width: 216%;
+            margin-top: 3%;
+            margin-left: -49%;
+        }
+        .openebs-section p {
+            /* margin-top: 3.5%; */
+            font-size: 0.85rem;
+            font-weight: 200;
+        }
+        .openebs-btn button {
+            font-size: 1rem;
+        }
+        .openebs-btn-05 {
+            /* padding-left: 4%; */
+        }
+        .openebs-btn-05 button {
+            background-color: #fc863f;
+            font-size: 0.70rem;
+            color: #fff;
+        }
+        .openebs-section.openebs-05 p {
+            font-weight: 600;
+            font-size: 0.75rem;
+            margin: 0;
+        }
+        .openebs-section .describe .icon-class img {
+            width: 100%;
+            height: 100%;
+        }
+        .openebs-des {
+            padding: 0;
+            padding-bottom: 18%;
+        }
+        .adjust-div {
+            margin-top: 2%;
+        }
+        .adjust-img {
+            width: 100%;
+            margin-top: 0%;
+        }
+        .kubernetes-docs h3 {
+            font-size: 1.25rem;
+        }
+        .kubernetes-docs button {
+            font-size: 1rem;
+            font-weight: 200;
+        }
+        .openebs-section .openebsrelease {
+            color: #ee5a2b;
+            font-weight: bold;
+            font-size: 1.35rem;
+            text-align: center;
+        }
+        /*  
+            //////////////////////////////////////////////////////////////////////////
+                        OPENSEBS AND MAYAONLINE DESCRIPTIONS
+            //////////////////////////////////////////////////////////////////////////
+            */
+        .openebs-descrip {
+            border: 1px solid #ff9933;
+            border-radius: 1rem;
+            padding: 5%;
+            background-color: #e2e2e2;
+        }
+        .maya-descrip {
+            border: 1px solid #ff9933;
+            border-radius: 1rem;
+            padding: 10% 0;
+            padding: 9%;
+            padding-top: 24%;
+            padding-bottom: 24%;
+            background-color: #699ca4;
+        }
+        /*
+///////////////////////////////////////////////////////////////////////////////////////////
+                    SLACK AND MAYAONLINE SECTION
+///////////////////////////////////////////////////////////////////////////////////////////
+*/
+        .slack-maya {
+            /* padding: 4% 0%; */
+        }
+        .screen-slackcommand {
+            width: 100%;
+        }
+        .screen-slackcommand p {
+            font-size: 0.75rem;
+            text-align: justify;
+        }
+        .mule-mayaonline img {
+            width: 100%;
+            height: auto;
+            margin-top: 8%;
+            margin-bottom: 2%;
+        }
+        .mule-mayaonline p {
+            font-size: 0.85rem;
+            text-align: left;
+            color: #000000;
+        }
+        .maya-button button {
+            font-size: 1rem;
+        }
+    }
+    
+    @media screen and (min-width:992px) {
+        /* 
+///////////////////////////////////////////////////////////////////////////////////////////
+                MAYADATA MULE SECTION 
+///////////////////////////////////////////////////////////////////////////////////////////
+*/
+        .mayabanner .mayadetails .maya-btn {
+            font-size: 0.9rem;
+        }
+        .mayabanner .maya-img {
+            height: 273px;
+            width: 273px;
+            ;
+        }
+        .mayabanner .maya-img .maya-imgtag {
+            height: 207px;
+            width: 143px;
+            margin-top: 11%;
+            margin-left: 21%;
+        }
+        .mayabanner .mayadetails div {
+            padding: 0;
+        }
+        .mayabanner .mayadetails div .display-5 {
+            font-size: 2.25rem;
+        }
+        .lead {
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
+        .lead-2 {
+            font-size: 1.2rem;
+        }
+        /*
+///////////////////////////////////////////////////////////////////////////////////
+    MAYA ONLINE API SECTION START HERE!
+///////////////////////////////////////////////////////////////////////////////////
+*/
+        .mayaapi ul {
+            font-size: 1.1rem;
+        }
+        .ebsheight .ebsimg {
+            height: 70px;
+        }
+        /*
+/////////////////////////////////////////////////////////////////////////////////////
+                    OPENEBS  & KUBERNETES SECTION
+/////////////////////////////////////////////////////////////////////////////////////
+*/
+        .openebs-section p {
+            /* margin-top: 5.5%; */
+            font-size: 1.15rem;
+        }
+        .openebs-btn button {
+            font-size: 1.35rem;
+        }
+        .openebs-img {
+            height: auto;
+            width: 216%;
+            margin-top: 0%;
+            margin-left: -50%;
+        }
+        .mule-mayaonline .flying-mule {
+            width: 57%;
+            margin-top: 10%;
+        }
+        .mule-mayaonline img {
+            margin-top: 13%;
+        }
+        .mule-mayaonline p {
+            font-size: 1.15rem;
+        }
+        .kubernetes-sec img {
+            width: 100%;
+        }
+        .kubernetes-docs h3 {
+            font-size: 1.8rem;
+        }
+        .kubernetes-docs button {
+            font-size: 1.35rem;
+        }
+        .openebs-section .openebsrelease {
+            color: #ee5a2b;
+            font-weight: bold;
+            font-size: 1.35rem;
+            text-align: center;
+        }
+        /*  
+            //////////////////////////////////////////////////////////////////////////
+                        OPENSEBS AND MAYAONLINE DESCRIPTIONS
+            //////////////////////////////////////////////////////////////////////////
+            */
+        .maya-descrip {
+            padding: 20%;
+            padding-top: 30.5%;
+            padding-bottom: 30.5%;
+        }
+        /*
+///////////////////////////////////////////////////////////////////////////////////////////
+                    SLACK AND MAYAONLINE SECTION
+///////////////////////////////////////////////////////////////////////////////////////////
+*/
+        .screen-slackcommand p {
+            font-size: 1.15rem;
+        }
+        .maya-button {
+            margin-top: 11%;
+        }
+        .maya-button button {
+            font-size: 1.35rem;
+        }
+    }
+    
+    @media screen and (min-width:1200px) {
+        /* 
+///////////////////////////////////////////////////////////////////////////////////////////
+                MAYADATA MULE SECTION 
+///////////////////////////////////////////////////////////////////////////////////////////
+*/
+        .mayabanner .maya-img {
+            height: 310px;
+            width: 310px;
+        }
+        .mayabanner .maya-img .maya-imgtag {
+            height: 238px;
+            width: 169px;
+            margin-top: 13%;
+            margin-left: 20%;
+        }
+        .mayabanner .mayadetails div {
+            padding: 0;
+        }
+        .mayabanner .mayadetails div .display-5 {
+            font-size: 2.65rem;
+        }
+        .lead {
+            font-size: 1.65rem;
+            font-weight: 300;
+        }
+        .mayabanner .mayadetails .maya-btn {
+            font-size: 1.25rem;
+        }
+        /*
+///////////////////////////////////////////////////////////////////////////////////
+MAYA ONLINE API SECTION START HERE!
+///////////////////////////////////////////////////////////////////////////////////
+*/
+        .mayaapi ul {
+            font-size: 1.25rem;
+        }
+        /*
+/////////////////////////////////////////////////////////////////////////////////////
+       PURE  OPENEBS  & KUBERNETES SECTION
+/////////////////////////////////////////////////////////////////////////////////////
+*/
+        .openebs-section p {
+            /* margin-top: 5.5%; */
+            font-size: 1.25rem;
+        }
+        .openebs-btn button {
+            font-size: 1.45rem;
+        }
+        .openebs-des {
+            padding: 0;
+            padding-bottom: 0;
+        }
+        .openebs-section .openebs-05 p {
+            font-size: 1.15rem;
+        }
+        .openebs-section .describe .icon-class .icon-div .icon-para {
+            font-size: 1.25rem;
+        }
+        .icon-para {
+            font-size: 1.25rem;
+        }
+        .openebs-btn-05 button {
+            font-size: 1.1em;
+        }
+        .openebs-img {
+            height: auto;
+            width: 174%;
+            margin-top: 0%;
+            margin-left: -32%;
+        }
+        .openebs-section .kubectlcmd p {
+            font-size: 0.7rem;
+        }
+        /* .openebs-release {
+            padding-bottom: 0%;
+        } */
+        .feature {
+            /* padding: 7% 0%; */
+        }
+        .feature-icon {
+            font-size: 3.5rem;
+            /* margin: 0; */
+            color: #ee5a2b;
+            text-align: center;
+        }
+        .openebs-section .padding-bm {
+            padding-bottom: 19.5%;
+        }
+        .kubernetes-deploy {
+            /* padding-top: 7%; */
+            text-align: center;
+        }
+        .mule-mayaonline .flying-mule {
+            -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+            width: 57%;
+            margin-top: 0%;
+        }
+        .mule-mayaonline img {
+            width: 100%;
+            height: auto;
+            margin-top: 13%;
+        }
+        .mule-mayaonline p {
+            font-size: 1.25rem;
+        }
+        .kubernetes-sec img {
+            width: 100%;
+        }
+        .kubernetes-docs {
+            padding-left: 6%;
+        }
+        .kubernetes-docs h3 {
+            font-size: 1.8rem;
+        }
+        .kubernetes-docs button {
+            font-size: 1.45rem;
+        }
+        .ebsheight {
+            height: 500px;
+        }
+        .ebsheight .ebsimg {
+            height: 70px;
+        }
+        /*  
+            //////////////////////////////////////////////////////////////////////////
+                        OPENSEBS AND MAYAONLINE DESCRIPTIONS
+            //////////////////////////////////////////////////////////////////////////
+            */
+        .maya-descrip {
+            padding: 25%;
+            padding-top: 31%;
+            padding-bottom: 31%;
+        }
+        /*
+///////////////////////////////////////////////////////////////////////////////////////////
+        SLACK AND MAYAONLINE SECTION
+///////////////////////////////////////////////////////////////////////////////////////////
+*/
+        .screen-slackcommand p {
+            font-size: 1.25rem;
+        }
+        .maya-button {
+            margin-top: 11%;
+        }
+        .maya-button button {
+            font-size: 1.45rem;
+        }
+    }
+    
+    @media screen and (min-width:1500px) {
+        /*
+                  Header
+*/
+        .mayadata-img {
+            height: 50px;
+        }
+        .navbar {
+            font-size: 1.35rem;
+        }
+        /* 
+///////////////////////////////////////////////////////////////////////////////////////////
+                MAYADATA MULE SECTION 
+///////////////////////////////////////////////////////////////////////////////////////////
+*/
+        .mayabanner .mayadetails div .display-5 {
+            font-size: 2.5rem
+        }
+        .mayabanner .mayadetails div .lead {
+            font-size: 1.75rem;
+        }
+        .mayabanner .maya-img {
+            height: 314px;
+            width: 314px;
+        }
+        .mayabanner .maya-img .maya-imgtag {
+            height: 243px;
+            width: 167px;
+            margin-top: 11%;
+            margin-left: 19%;
+        }
+        .mayabanner .mayadetails .maya-btn {
+            font-size: 1.3em;
+        }
+        .lead-2 {
+            font-size: 1.75rem;
+        }
+        /*
+///////////////////////////////////////////////////////////////////////////////////
+    MAYA ONLINE API SECTION START HERE!
+///////////////////////////////////////////////////////////////////////////////////
+*/
+        .mayaapi .lead {
+            font-size: 2rem
+        }
+        .mayaapi ul {
+            font-size: 1.2rem;
+        }
+        /*
+/////////////////////////////////////////////////////////////////////////////////////
+                    OPENEBS  & KUBERNETES SECTION
+/////////////////////////////////////////////////////////////////////////////////////
+*/
+        .openebs-section img {
+            /* width: 100%; */
+            /* margin-top: 0% */
+        }
+        .openebs-section p {
+            /* margin-top: 5%; */
+            font-size: 1.1rem;
+        }
+        .openebs-img {
+            height: auto;
+            width: 174%;
+            margin-top: 40%;
+            margin-left: -32%;
+        }
+        .mule-mayaonline img {
+            width: 100%;
+            height: auto;
+            margin-top: 8%;
+            margin-bottom: 2%;
+        }
+        .mule-mayaonline p {
+            font-size: 1.5rem;
+        }
+        .kubernetes-docs h3 {
+            font-size: 1.85rem;
+        }
+        .kubernetes-docs button {
+            font-size: 1.45rem;
+        }
+        /*openebs section */
+        .ebsheight {
+            height: 500px;
+        }
+        .ebsheight .ebsimg {
+            height: 70px;
+        }
+        .openebs-section .openebsrelease {
+            color: #ee5a2b;
+            font-weight: bold;
+            font-size: 1.35rem;
+            text-align: center;
+        }
+        /*  
+            //////////////////////////////////////////////////////////////////////////
+                        OPENSEBS AND MAYAONLINE DESCRIPTIONS
+            //////////////////////////////////////////////////////////////////////////
+            */
+        .maya-descrip {
+            padding: 25%;
+            padding-top: 30%;
+            padding-bottom: 30%;
+        }
+        /*
+///////////////////////////////////////////////////////////////////////////////////////////
+                    SLACK AND MAYAONLINE SECTION
+///////////////////////////////////////////////////////////////////////////////////////////
+*/
+        .screen-slackcommand p {
+            margin-top: 7%;
+            font-size: 1.25rem;
+        }
+        .maya-button button {
+            font-size: 1.25rem;
+        }
+    }
+    
+    @media screen and (min-width:1920px) {
+        /*
+///////////////////////////////////////////////////////////////////////////////////////////
+    MAYADATA MULE SECTION 
+///////////////////////////////////////////////////////////////////////////////////////////
+*/
+        .mayabanner .mayadetails div .display-5 {
+            font-size: 2.7rem;
+            font-weight: 200;
+        }
+        .mayabanner .mayadetails div .lead {
+            font-size: 1.75rem;
+        }
+        .mayabanner .maya-img {
+            height: 315px;
+            width: 315px
+        }
+        .mayabanner .mayadetails .maya-btn {
+            font-size: 1.35em;
+        }
+        /*
+///////////////////////////////////////////////////////////////////////////////////
+MAYA ONLINE API SECTION START HERE!
+///////////////////////////////////////////////////////////////////////////////////
+*/
+        .mayaapi .lead {
+            font-size: 2rem
+        }
+        .mayaapi ul {
+            font-size: 1.2rem;
+        }
+        /*
+/////////////////////////////////////////////////////////////////////////////////////
+        OPENEBS  & KUBERNETES SECTION
+/////////////////////////////////////////////////////////////////////////////////////
+*/
+        .openebs-section img {}
+        .openebs-img {
+            height: auto;
+            width: 192%;
+            margin-top: 32%;
+            margin-left: -42%;
+        }
+        .openebs-section p {
+            /* margin-top: 5%; */
+            font-size: 1.5rem;
+        }
+        .kubernetes-docs {
+            padding-left: 4%;
+        }
+        .kubernetes-docs h3 {
+            font-size: 1.85rem;
+        }
+        .kubernetes-docs button {
+            font-size: 1.45rem;
+        }
+        /*openebs section*/
+        .ebsheight {
+            height: 600px;
+        }
+        .ebsheight .ebsimg {
+            height: 70px;
+        }
+        .openebs-section .kubectlcmd p {
+            font-size: 0.9rem;
+        }
+        /*
+///////////////////////////////////////////////////////////////////////////////////////////
+        SLACK AND MAYAONLINE SECTION
+///////////////////////////////////////////////////////////////////////////////////////////
+*/
+        .screen-slackcommand p {
+            margin-top: 7%;
+            font-size: 1.25rem;
+        }
+        .maya-button button {
+            font-size: 1.25rem;
+        }
+        .p-d1 {
+            margin-right: 0.5%
+        }
+        .p-d2 {
+            margin-left: 0.5%;
+            margin-right: 0.5%;
+        }
+        .p-d3 {
+            margin-left: 0.5%;
+        }
+    }
+    /*
+//////////////////////////////////////////////////////////////////////////////
+            Media Query For iPad and iPad Pro.
+//////////////////////////////////////////////////////////////////////////////
+*/
+    
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        .icon-para {
+            margin-top: 0%;
+            font-size: 0.8rem;
+        }
+        .feature-icon {
+            font-size: 2rem;
+            color: #ee5a2b;
+        }
+        .ebsimg {
+            height: 59px;
+        }
+    }
+    
+    @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+        .openebs-section p {
+            font-size: 1rem;
+        }
+    }

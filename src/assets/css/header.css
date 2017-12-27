@@ -1,0 +1,24 @@
+.mayadata-img1 {
+    height: 32px;
+}
+
+@media screen and (max-width:1536px) {
+    .largeviewport {
+        display: none;
+    }
+    .smallviewport {
+        display: block;
+    }
+}
+
+@media screen and (min-width:1537px) {
+    .smallviewport {
+        display: none;
+    }
+    .largeviewport {
+        display: block;
+    }
+    .ampadding {
+        padding-left: 0%;
+    }
+}
