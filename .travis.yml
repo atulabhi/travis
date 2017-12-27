@@ -17,12 +17,7 @@ env:
   - NODE_ENV=CI
   - COMMIT=${TRAVIS_COMMIT::6}
 # Use Dockerized infrastructure
-sudo: false
-
-# Use node_js environnement
-language: node_js
-node_js:
-  - "6"
+sudo: required
 
 # Cache Gcloud SDK between commands
 cache:
